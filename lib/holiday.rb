@@ -20,7 +20,7 @@ def second_supply_for_fourth_of_july(holiday_supplies)
 end
 
 def add_supply_to_winter_holidays(holiday_supplies, supply)
-   
+   holiday_supplies[:winter]<<
 
 end
 
