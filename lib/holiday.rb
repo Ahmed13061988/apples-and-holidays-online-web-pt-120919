@@ -18,7 +18,7 @@ def second_supply_for_fourth_of_july(holiday_supplies)
    }
    holiday_supplies[:summer][:fourth_of_july][1]
 end
-second_supply_for_fourth_of_july
+second_supply_for_fourth_of_july(holiday_supplies)
 def add_supply_to_winter_holidays(holiday_supplies, supply)
    holiday_supplies[:winter][:christmas]<<["christmas tree"]
    holiday_supplies[:winter][:new_years]<<["Shampaine"]
