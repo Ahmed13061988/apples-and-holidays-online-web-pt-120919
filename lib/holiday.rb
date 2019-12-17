@@ -20,14 +20,14 @@ def second_supply_for_fourth_of_july(holiday_supplies)
 end
 
 def add_supply_to_winter_holidays(holiday_supplies, supply)
-   holiday_supplies[:winter]<<
+   holiday_supplies[:winter][:christmas]<<["christmas tree"]
+   holiday_supplies[:winter][:new_years]<<["Shampaine"]
 
 end
 
 
 def add_supply_to_memorial_day(holiday_hash, supply)
-  # again, holiday_hash is the same as the ones above
-  # add the second argument to the memorial day array
+  
 
 end
 
